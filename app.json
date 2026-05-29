@@ -22,7 +22,7 @@
         "backgroundColor": "#FFF8F0"
       },
       "package": "com.bharatbhakti.app",
-      "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713",
+      "googleMobileAdsAppId": "ca-app-pub-6010190127310138~2756785189",
       "permissions": [
         "NOTIFICATIONS",
         "SCHEDULE_EXACT_ALARM",
