@@ -1,57 +1,62 @@
-{
-  "expo": {
-    "name": "Bharat Bhakti",
-    "slug": "bharatbhakti",
-    "version": "1.0.0",
-    "scheme": "bharatbhakti",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#FFF8F0"
-    },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.bharatbhakti.app"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFF8F0"
-      },
-      "package": "com.bharatbhakti.app",
-      "googleMobileAdsAppId": "ca-app-pub-6010190127310138~2756785189",
-      "permissions": [
-        "NOTIFICATIONS",
-        "SCHEDULE_EXACT_ALARM",
-        "USE_EXACT_ALARM",
-        "RECEIVE_BOOT_COMPLETED",
-        "WRITE_EXTERNAL_STORAGE",
-        "READ_EXTERNAL_STORAGE",
-        "MEDIA_LIBRARY"
-      ]
-    },
-    "plugins": [
-      "expo-router",
-      "expo-font",
-      "react-native-google-mobile-ads",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/icon.png",
-          "color": "#C8410B",
-          "iosDisplayInForeground": true
-        }
-      ],
-      [
-        "expo-media-library",
-        {
-          "photosPermission": "Allow Bharat Bhakti to save wallpapers to your gallery.",
-          "savePhotosPermission": "Allow Bharat Bhakti to save wallpapers to your gallery."
-        }
-      ]
-    ]
-  }
+﻿{
+    "expo":  {
+                 "name":  "Bharat Bhakti",
+                 "slug":  "bharatbhakti",
+                 "version":  "1.0.0",
+                 "scheme":  "bharatbhakti",
+                 "orientation":  "portrait",
+                 "icon":  "./assets/icon.png",
+                 "userInterfaceStyle":  "automatic",
+                 "splash":  {
+                                "image":  "./assets/splash-icon.png",
+                                "resizeMode":  "contain",
+                                "backgroundColor":  "#FFF8F0"
+                            },
+                 "ios":  {
+                             "supportsTablet":  false,
+                             "bundleIdentifier":  "com.bharatbhakti.app"
+                         },
+                 "android":  {
+                                 "adaptiveIcon":  {
+                                                      "foregroundImage":  "./assets/adaptive-icon.png",
+                                                      "backgroundColor":  "#FFF8F0"
+                                                  },
+                                 "package":  "com.bharatbhakti.app",
+                                 "googleMobileAdsAppId":  "ca-app-pub-6010190127310138~2756785189",
+                                 "permissions":  [
+                                                     "NOTIFICATIONS",
+                                                     "SCHEDULE_EXACT_ALARM",
+                                                     "USE_EXACT_ALARM",
+                                                     "RECEIVE_BOOT_COMPLETED",
+                                                     "WRITE_EXTERNAL_STORAGE",
+                                                     "READ_EXTERNAL_STORAGE",
+                                                     "MEDIA_LIBRARY"
+                                                 ]
+                             },
+                 "plugins":  [
+                                 "expo-router",
+                                 "expo-font",
+                                 [
+                                     "react-native-google-mobile-ads",
+                                     {
+                                         "androidAppId":  "ca-app-pub-6010190127310138~2756785189"
+                                     }
+                                 ],
+                                 [
+                                     "expo-notifications",
+                                     {
+                                         "icon":  "./assets/icon.png",
+                                         "color":  "#C8410B",
+                                         "iosDisplayInForeground":  true
+                                     }
+                                 ],
+                                 [
+                                     "expo-media-library",
+                                     {
+                                         "photosPermission":  "Allow Bharat Bhakti to save wallpapers to your gallery.",
+                                         "savePhotosPermission":  "Allow Bharat Bhakti to save wallpapers to your gallery."
+                                     }
+                                 ]
+                             ]
+             }
 }
